@@ -1,0 +1,20 @@
+{
+    "name": "cheese-runner",
+    "version": "1.0.0",
+    "description": "Cheese my bag",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "vite",
+      "build": "vite build",
+      "dev": "vite"
+    },
+    "author": "cheeseboi",
+    "license": "MIT",
+    "devDependencies": {
+      "vite": "^4.0.0"
+    },
+    "dependencies": {
+      "phaser": "^3.60.0"
+    }
+  }
+  
