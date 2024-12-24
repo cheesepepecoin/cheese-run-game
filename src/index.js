@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import PreloadScene from './scenes/PreloadScene';
 import GameScene from './scenes/GameScene';
+import StartScene from './scenes/StartScene';
 const screenWidth = window.innerWidth;
 const screenHeight = window.innerHeight;
 const config = {
@@ -20,7 +21,7 @@ const config = {
         target: 30,
         forceSetTimeOut: true,
     },
-    scene: [PreloadScene, GameScene],
+    scene: [StartScene, PreloadScene, GameScene],
 };
 
 new Phaser.Game(config);

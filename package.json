@@ -4,7 +4,7 @@
     "description": "Cheese my bag",
     "main": "src/index.js",
     "scripts": {
-      "start": "vite",
+      "start": "vite --host 0.0.0.0",
       "build": "vite build",
       "dev": "vite"
     },
