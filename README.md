@@ -26,17 +26,20 @@ We invite you to become a part of the Cheese community and support our mission t
 ## Installation
 
 1. **Clone this repository**:
+
    ```bash
    git clone https://github.com/cheesepepecoin/cheese-run-game.git
    cd cheese-run-game
    ```
 
 2. **Install dependencies** (optional if using a development environment):
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**:
+
    ```bash
    npm start
    ```
@@ -66,11 +69,13 @@ We invite you to become a part of the Cheese community and support our mission t
 ## Controls
 
 ### Desktop
+
 - **Arrow Keys (Left/Right)**: Move the character.
 - **Spacebar or Up Arrow**: Jump.
 
 ### Mobile
-- **Touch Buttons**: 
+
+- **Touch Buttons**:
   - Left/Right to move.
   - Jump button to jump.
 
@@ -79,6 +84,7 @@ We invite you to become a part of the Cheese community and support our mission t
 You can customize the following aspects of the game:
 
 1. **Sprites**:
+
    - Replace images in the `/assets/images` folder.
 
 2. **Sounds**:
