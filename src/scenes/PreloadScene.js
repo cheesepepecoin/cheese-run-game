@@ -1,10 +1,9 @@
 export default class PreloadScene extends Phaser.Scene {
 
-    isProduction = process.env.NODE_ENV === 'production';
-    assetsPath = isProduction ? '/assets/' : '/${assetsPath}';
-
     constructor() {
         super('PreloadScene');
+        this.isProduction = process.env.NODE_ENV === 'production';
+        this.assetsPath = this.isProduction ? '/assets/' : '/public/assets/';
     }
 
     preload() {
