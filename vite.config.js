@@ -5,8 +5,10 @@ export default defineConfig({
   base: '/cheese-run-game/',
   build: {
     outDir: 'dist',
+    assetsInlineLimit: 0,
     rollupOptions: {
       plugins: [terser()],
     },
   },
+  assetsInclude: ['**/*.png','**/*.jpg', '**/*.mp3'],
 });
