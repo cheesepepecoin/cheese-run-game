@@ -1,6 +1,6 @@
-# Cheesing - A Fun Platform Game
+# Cheese Run Game
 
-Cheesing is an engaging platform game where you control a character to collect cheese while avoiding obstacles. Designed for the web, this project is developed using the **Phaser 3** game engine and optimized for both desktop and mobile browsers.
+`Cheese Run Game` is an engaging platform game where you control a character to collect cheese while avoiding obstacles. Designed for the web, this project is developed using the **Phaser 3** game engine and optimized for both desktop and mobile browsers.
 
 ## About Cheese Memecoin
 

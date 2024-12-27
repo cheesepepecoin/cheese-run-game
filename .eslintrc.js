@@ -9,6 +9,9 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['prettier'],
+  globals: {
+    Phaser: 'readonly',
+  },
   rules: {
     'prettier/prettier': 'error',
     'no-unused-vars': 'warn',
