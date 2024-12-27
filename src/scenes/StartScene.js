@@ -1,15 +1,13 @@
 export default class StartScene extends Phaser.Scene {
 
-    constructor() {
+  constructor() {
     super('StartScene');
     this.musicStarted = false;
-    this.isProduction = process.env.NODE_ENV === 'production';
-    this.assetsPath = this.isProduction ? '/assets/' : '/public/assets/';
   }
 
   preload() {
-    this.load.audio('backgroundMusic', '${assetsPath}sounds/background.mp3');
-    this.load.image('title', '${assetsPath}iimages/title.png');
+    this.load.audio('backgroundMusic', 'assets/sounds/background.mp3');
+    this.load.image('title', 'assets/images/title.png');
   }
 
   create() {
