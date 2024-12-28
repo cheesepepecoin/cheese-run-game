@@ -8,6 +8,7 @@ export default class StartScene extends Phaser.Scene {
   preload() {
     this.load.audio('backgroundMusic', 'assets/sounds/background.mp3');
     this.load.image('title', 'assets/images/title.png');
+    this.load.image('background', 'assets/images/background.jpg');
   }
 
   create() {
