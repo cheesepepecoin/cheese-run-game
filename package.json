@@ -1,6 +1,6 @@
 {
   "name": "cheese-runner",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "Cheese my bag",
   "main": "src/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .js",
     "format": "prettier --write ."
   },
-  "author": "cheeseboi",
+  "author": "EnriqueTejeda",
   "license": "Apache-2.0",
   "devDependencies": {
     "vite": "^4.0.0",
